@@ -1,0 +1,11 @@
+<!-- ic_qr_code.xml example -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24"
+    android:tint="#2196F3">
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M3,3v18h18V3H3z M5,5h14v14H5V5z M9,8h2v2H9V8z M9,12h2v6H9V12z M13,8h2v2h-2V8z M13,12h2v2h-2V12z M13,14h2v2h-2V14z"/>
+</vector>

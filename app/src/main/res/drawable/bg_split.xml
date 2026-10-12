@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Top blue (about 25%) -->
+    <item android:height="@dimen/cardview_compat_inset_shadow">
+        <shape>
+            <gradient
+                android:startColor="#151B54"
+                android:endColor="#1F2A7C"
+                android:angle="90"/>
+        </shape>
+    </item>
+
+    <!-- Bottom white -->
+    <item android:top="@dimen/material_emphasis_disabled">
+        <shape>
+            <solid android:color="#FFFFFF"/>
+        </shape>
+    </item>
+
+</layer-list>

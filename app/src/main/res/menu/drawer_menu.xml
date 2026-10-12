@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_home"
+        android:title="Home"
+        android:textColor="@android:color/white"
+        android:icon="@drawable/baseline_home" />
+
+    <item
+        android:id="@+id/menu_history"
+        android:title="Scan History"
+        android:textColor="@android:color/white"
+        android:icon="@drawable/history" />
+
+    <item
+        android:id="@+id/menu_friends"
+        android:title="Trusted Friends"
+        android:textColor="@android:color/white"
+        android:icon="@drawable/friend_list" />
+
+    <item
+        android:id="@+id/menu_report"
+        android:title="Report Fraud"
+        android:textColor="@android:color/white"
+        android:icon="@drawable/ic_warning" />
+
+    <item
+        android:id="@+id/menu_tips"
+        android:title="Awareness / Tips"
+        android:textColor="@android:color/white"
+        android:icon="@drawable/ic_tips" />
+
+    <item
+        android:id="@+id/menu_settings"
+        android:title="Settings"
+        android:textColor="@android:color/white"
+        android:icon="@drawable/ic_settings" />
+
+    <item
+        android:id="@+id/menu_about"
+        android:title="About / Help"
+        android:textColor="@android:color/white"
+        android:icon="@drawable/ic_info" />
+
+    <item
+        android:id="@+id/menu_logout"
+        android:title="Logout"
+        android:textColor="@android:color/holo_red_light"
+        android:icon="@drawable/ic_logout" />
+
+</menu>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000">
+
+    <!-- CAMERA PREVIEW -->
+    <androidx.camera.view.PreviewView
+        android:id="@+id/previewView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- TOP DARK OVERLAY -->
+    <View
+        android:id="@+id/overlayTop"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#99000000"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/scannerBox"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <!-- BOTTOM DARK OVERLAY -->
+    <View
+        android:id="@+id/overlayBottom"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#99000000"
+        app:layout_constraintTop_toBottomOf="@id/scannerBox"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <!-- LEFT DARK OVERLAY -->
+    <View
+        android:id="@+id/overlayLeft"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#99000000"
+        app:layout_constraintTop_toTopOf="@id/scannerBox"
+        app:layout_constraintBottom_toBottomOf="@id/scannerBox"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/scannerBox"/>
+
+    <!-- RIGHT DARK OVERLAY -->
+    <View
+        android:id="@+id/overlayRight"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#99000000"
+        app:layout_constraintTop_toTopOf="@id/scannerBox"
+        app:layout_constraintBottom_toBottomOf="@id/scannerBox"
+        app:layout_constraintStart_toEndOf="@id/scannerBox"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <!-- SCANNER BOX -->
+    <FrameLayout
+        android:id="@+id/scannerBox"
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:layout_marginTop="-200dp"
+        android:background="@drawable/bg_scanner_round"
+        android:clipToOutline="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/qrgif"
+            android:scaleType="fitCenter"/>
+    </FrameLayout>
+
+    <!-- CLOSE BUTTON -->
+    <ImageView
+        android:id="@+id/btnClose"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/ic_close"
+        android:padding="8dp"
+        android:layout_margin="20dp"
+        app:tint="#FFFFFF"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <!-- TORCH BUTTON -->
+    <ImageView
+        android:id="@+id/btnTorch"
+        android:layout_width="54dp"
+        android:layout_height="60dp"
+        android:src="@drawable/ic_flash_off"
+        android:padding="8dp"
+        android:layout_margin="20dp"
+        app:tint="#FFFFFF"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <!-- UPLOAD BUTTON -->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnGallery"
+        android:layout_width="260dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="26dp"
+        android:background="@drawable/bg_gallery_button"
+        android:text="Upload from Gallery"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-medium"
+        android:drawableStart="@drawable/image1"
+        android:drawablePadding="10dp"
+        android:paddingStart="22dp"
+        android:paddingEnd="22dp"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:elevation="0dp"
+        android:stateListAnimator="@null"
+        app:backgroundTint="@null"
+        app:layout_constraintTop_toBottomOf="@id/scannerBox"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

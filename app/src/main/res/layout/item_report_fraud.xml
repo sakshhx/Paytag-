@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="16dp"
+    app:cardCornerRadius="22dp"
+    app:cardElevation="0dp"
+    app:cardBackgroundColor="#0E2238"
+    android:background="@drawable/bg_trusted_friend_card">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="18dp"
+        android:background="@drawable/bg_reported_fraud_card">
+
+        <!-- TOP ROW: UPI + Risk Badge -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/tvUpiId"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="9876543210@okicici"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"/>
+
+            <TextView
+                android:id="@+id/tvRiskLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CAUTION"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                android:paddingHorizontal="14dp"
+                android:paddingVertical="8dp"
+                android:background="@drawable/bg_risk_caution_dark"
+                android:textColor="@android:color/white"/>
+
+        </LinearLayout>
+
+        <!-- REASON -->
+        <TextView
+            android:id="@+id/tvReason"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reason: Phishing / Scam Link"
+            android:textSize="12sp"
+            android:textColor="#9FB0C3"
+            android:layout_marginTop="10dp"/>
+
+        <!-- BOTTOM ROW: Timestamp + Report count -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/tvTimestamp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Apr 05, 2026 · 10:30 AM"
+                android:textSize="11sp"
+                android:textColor="#A7B6C8"/>
+
+            <TextView
+                android:id="@+id/tvReportCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3 reports"
+                android:textSize="11sp"
+                android:textColor="#FF7B7B"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

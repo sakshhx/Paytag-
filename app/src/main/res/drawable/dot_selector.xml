@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- SELECTED DOT (WIDER) -->
+    <item android:state_selected="true">
+        <shape android:shape="oval">
+            <size
+                android:width="20dp"
+                android:height="8dp"/>
+            <solid android:color="#FFFFFF"/>
+        </shape>
+    </item>
+
+    <!-- UNSELECTED DOT (SMALL) -->
+    <item>
+        <shape android:shape="oval">
+            <size
+                android:width="8dp"
+                android:height="8dp"/>
+            <solid android:color="#000"/>
+        </shape>
+    </item>
+
+</selector>

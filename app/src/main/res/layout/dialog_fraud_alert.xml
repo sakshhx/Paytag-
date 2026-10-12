@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="28dp"
+    android:gravity="center_horizontal"
+    android:background="@drawable/bg_dialog_paytag">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirm Report"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:letterSpacing="0.01"
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:id="@+id/tvBody"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Report 9769769156@postbank as fraudulent?"
+        android:textSize="14sp"
+        android:textColor="#B0C4D8"
+        android:gravity="center"
+        android:lineSpacingExtra="4dp"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/tvUpiId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reason: Impersonation / Fake Identity"
+        android:textSize="13sp"
+        android:textColor="#7A94AA"
+        android:gravity="center"
+        android:lineSpacingExtra="2dp"
+        android:layout_marginBottom="22dp"
+        android:visibility="visible" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="22dp"
+        android:background="#1E3448" />
+
+    <!-- Primary CTA — red-orange gradient matching the screenshot -->
+    <TextView
+        android:id="@+id/btnView"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:text="Report"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:background="@drawable/bg_dialog_primary_btn"
+        android:layout_marginBottom="12dp" />
+
+    <!-- Secondary CTA — dark muted background like Cancel in screenshot -->
+    <TextView
+        android:id="@+id/btnDismiss"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Cancel"
+        android:textSize="15sp"
+        android:textColor="#9BAFC2"
+        android:gravity="center"
+        android:background="@drawable/bg_dialog_secondary_btn" />
+
+</LinearLayout>

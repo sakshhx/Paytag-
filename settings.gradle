@@ -1,0 +1,20 @@
+pluginManagement {
+    repositories {
+        google()              // Android + Firebase plugins
+        mavenCentral()
+        gradlePluginPortal()
+        maven { url = uri("https://jitpack.io") } // ZXing / third‑party libs
+    }
+}
+
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()              // AndroidX, Firebase, Play Services
+        mavenCentral()
+        maven { url = uri("https://jitpack.io") }
+    }
+}
+
+rootProject.name = "PayTagPlus"
+include(":app")

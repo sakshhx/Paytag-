@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/pinRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/screen_bg">
+
+    <!-- ICON -->
+    <ImageView
+        android:id="@+id/imgLock"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/ic_lock"
+        android:background="@drawable/bg_icon_circle"
+        android:padding="16dp"
+        app:tint="@color/icon_primary"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <!-- TITLE -->
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Unlock App"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_primary"
+        app:layout_constraintTop_toBottomOf="@id/imgLock"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <!-- SUBTITLE -->
+    <TextView
+        android:id="@+id/txtSubtitle"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Use fingerprint or your phone PIN to continue"
+        android:textSize="14sp"
+        android:textColor="@color/text_secondary"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/txtTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <!-- BUTTON -->
+    <Button
+        android:id="@+id/btnUnlock"
+        android:layout_width="220dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="40dp"
+        android:text="Unlock"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:backgroundTint="#1E2A44"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@id/txtSubtitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

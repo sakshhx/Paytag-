@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- User -->
+    <path
+        android:fillColor="#1D4ED8"
+        android:pathData="
+            M12,12
+            a4,4 0 1,0 0,-8
+            a4,4 0 1,0 0,8
+        " />
+
+    <!-- User body -->
+    <path
+        android:fillColor="#1D4ED8"
+        android:pathData="
+            M4,20
+            c0,-4 4,-6 8,-6
+            s8,2 8,6
+            v1
+            H4
+            z
+        " />
+
+    <!-- Plus icon -->
+    <path
+        android:fillColor="#1D4ED8"
+        android:pathData="
+            M18,8
+            v-2
+            h-2
+            v2
+            h-2
+            v2
+            h2
+            v2
+            h2
+            v-2
+            h2
+            v-2
+            z
+        " />
+</vector>

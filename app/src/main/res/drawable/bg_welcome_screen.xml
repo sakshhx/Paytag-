@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#03152A"/>
+        </shape>
+    </item>
+
+    <!-- soft glow near top center -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:type="radial"
+                android:centerX="50%"
+                android:centerY="28%"
+                android:gradientRadius="280dp"
+                android:startColor="#1400FFD5"
+                android:centerColor="#0A00FFD5"
+                android:endColor="#0003152A"/>
+        </shape>
+    </item>
+
+</layer-list>

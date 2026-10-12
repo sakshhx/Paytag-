@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <color name="privacy_bg">#03172B</color>
+    <color name="privacy_header">#05182D</color>
+    <color name="privacy_card">#12263A</color>
+    <color name="privacy_stroke">#20E6DF</color>
+    <color name="privacy_title">#35E7E0</color>
+    <color name="privacy_text_primary">#FFFFFF</color>
+    <color name="privacy_text_secondary">#B8C3CF</color>
+
+    <color name="nav_item_white">#FFFFFF</color>
+    <color name="card_white">#FFFFFF</color>
+    <color name="card_stroke">#EEF2F7</color>
+    <color name="btn_primary_dark">#0E9C82</color>
+    <color name="screen_bg">#031327</color>
+    <color name="btn_primary">#18CFA6</color>
+    <color name="purple_accent">#20F0C8</color>
+    <color name="text_primary">#F3F4F6</color>
+    <color name="text_secondary">#AEB6C2</color>
+    <color name="home_quick_icon">#051722</color>
+
+    <color name="icon_circle_bg">#F3F4F6</color>
+    <color name="icon_circle_fg">#111827</color>
+    <color name="settings_chevron">#111827</color>
+    <color name="welcome_bg">#03152A</color>
+    <color name="welcome_subtitle">#99A3B2</color>
+    <color name="btn_teal_top">#16BFA8</color>
+    <color name="btn_teal_bottom">#0D8E87</color>
+
+
+
+
+
+    <color name="icon_primary">#111827</color>
+    <color name="icon_bg">#F8FAFC</color>
+    <color name="chevron_gray">#9CA3AF</color>
+    <color name="nav_text_primary">#111827</color>
+    <color name="nav_text_secondary">#6B7280</color>
+
+
+    <color name="settings_accent">#111827</color>
+    <color name="settings_danger">#EF4444</color>
+
+
+    <color name="purple_dark">#5B21B6</color>
+
+    <color name="pink_accent">#EC4899</color>
+
+    <color name="status_safe">#10B981</color>
+    <color name="status_risk">#EF4444</color>
+    <color name="status_pending">#F59E0B</color>
+
+    <color name="google_blue">#1A73E8</color>
+
+</resources>

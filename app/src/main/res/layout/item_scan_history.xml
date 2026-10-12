@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="14dp"
+    app:cardCornerRadius="22dp"
+    app:cardElevation="0dp"
+    app:cardBackgroundColor="#12263A">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:gravity="center_vertical"
+        android:background="@drawable/bg_scan_history_card">
+
+        <!-- LEFT -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvUpiId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9876543210@okicici"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"/>
+
+            <TextView
+                android:id="@+id/tvTimestamp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Apr 03, 2026 · 10:30 AM"
+                android:textSize="12sp"
+                android:textColor="#9FB0C3"
+                android:layout_marginTop="4dp"/>
+
+        </LinearLayout>
+
+        <!-- RIGHT -->
+        <TextView
+            android:id="@+id/tvRiskLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LOW RISK"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:background="@drawable/bg_risk_low_dark"
+            android:textColor="@android:color/white"/>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,5 @@
+<!-- bg_circle_indigo -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#E0E7FF"/>
+    <corners android:radius="22dp"/>
+</shape>

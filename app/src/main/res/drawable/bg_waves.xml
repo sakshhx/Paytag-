@@ -1,0 +1,53 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="360dp"
+    android:height="260dp"
+    android:viewportWidth="360"
+    android:viewportHeight="260">
+
+    <!-- Bottom darkest wave -->
+    <path
+        android:fillColor="#2B6FE3"
+        android:pathData="
+            M0,170
+            C70,190 140,220 220,200
+            C280,185 320,160 360,150
+            L360,260
+            L0,260
+            Z"/>
+
+    <!-- Wave layer 2 -->
+    <path
+        android:fillColor="#3F82F6"
+        android:fillAlpha="0.95"
+        android:pathData="
+            M0,145
+            C90,165 160,190 240,170
+            C300,155 330,135 360,125
+            L360,260
+            L0,260
+            Z"/>
+
+    <!-- Wave layer 3 -->
+    <path
+        android:fillColor="#60A5FA"
+        android:fillAlpha="0.9"
+        android:pathData="
+            M0,120
+            C100,140 190,165 270,145
+            C320,130 345,115 360,105
+            L360,260
+            L0,260
+            Z"/>
+
+    <!-- Top light wave -->
+    <path
+        android:fillColor="#BFDBFE"
+        android:fillAlpha="0.9"
+        android:pathData="
+            M0,95
+            C110,115 210,135 290,115
+            C330,105 350,90 360,80
+            L360,260
+            L0,260
+            Z"/>
+</vector>

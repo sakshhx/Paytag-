@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PayTag++</string>
+    <string name="default_web_client_id">538795460363-ckb4tueri4m1oa9t1a1icld4lef60dv4.apps.googleusercontent.com</string>
+    <string name="settings_title">Title</string>
+    <string name="icon_desc">Settings icon</string>
+    <string name="arrow_desc">Navigate</string>
+</resources>
